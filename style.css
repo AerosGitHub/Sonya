@@ -1,0 +1,74 @@
+header{
+    background-color: crimson;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid crimson;
+}
+
+h2 {
+    margin: 0px 0px;
+}
+
+.img-underTitle {
+    width: 70%;
+    height: auto;
+}
+
+.mainInf-container {
+    display: flex;
+    justify-content: start;
+}
+
+.img-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-container p {
+    margin: 0px 0px;
+    font-size: 25px;
+}
+
+.red{
+    color: crimson;
+}
+
+body{
+    background-color:#FFE4E1;
+}
+
+#poloska{
+    border-bottom:3px solid crimson ;
+}
+
+
+.music {
+    margin-top: 10px;
+    width: 50%;
+}
+
+.musicBlock{
+    display: flex;
+}
+
+.last-pic {
+    display: flex;
+    justify-content: center;
+}
